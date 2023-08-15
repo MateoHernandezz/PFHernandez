@@ -289,7 +289,11 @@ body {
 }
 
 .tarjetas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-top: 30px;
+  height: 400px;
   margin-right: 20px;
   padding: 20px;
   background: linear-gradient(to right, #FDEDF1, #FDEDF1, #FDEDF1, #F679A7);
@@ -387,6 +391,16 @@ body {
   .preguntasFrecuentes p {
     font-size: 1rem;
   }
+  .tarjetas {
+    width: auto;
+    height: auto;
+  }
+  .tarjetas h3 {
+    font-size: 1.2rem;
+  }
+  .tarjetas p {
+    font-size: 0.9rem;
+  }
 }
 @media (min-width: 501px) and (max-width: 1400px) {
   h1 {
@@ -425,6 +439,15 @@ body {
     font-size: 2rem;
   }
   .carousel-caption p {
+    font-size: 1rem;
+  }
+  .tarjetas {
+    height: 450px;
+  }
+  .tarjetas h3 {
+    font-size: 1.5rem;
+  }
+  .tarjetas p {
     font-size: 1rem;
   }
 }

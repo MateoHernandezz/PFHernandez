@@ -105,8 +105,22 @@
         h2 {
             font-size: 1.4rem;
         }
+
         p {
             font-size: 1rem;
+        }
+    }
+
+    .tarjetas {
+        width: auto;
+        height: auto;
+
+        h3 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 0.9rem;
         }
     }
 }
@@ -163,4 +177,17 @@
     .carousel-caption p {
         font-size: 1rem;
     }
+
+    .tarjetas {
+        height: 450px;
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
 }
