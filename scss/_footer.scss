@@ -1,0 +1,24 @@
+/*************** FOOTER *********/
+svg {
+    width: 50px;
+    color: $colorMain;
+    transition: 1s;
+
+    &:hover {
+        width: 70px;
+    }
+}
+
+.linkFooter {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: $colorMain;
+        border-radius: 15px;
+        color: white;
+    }
+}

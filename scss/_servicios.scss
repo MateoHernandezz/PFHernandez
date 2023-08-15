@@ -1,0 +1,25 @@
+/****************** SERVICIOS *******************/
+
+.tituloServicios h2 {
+    text-align: center;
+    padding: $paddingMain;
+    font-size: 3rem;
+    border-bottom: $colorMain 3px solid;
+}
+
+.cardPrincipales {
+    @include cards(500px, );
+
+    .card-body {
+        @include cardBody;
+    }
+}
+
+.cardSecundarias {
+    @include cards(350px);
+
+    .card-body {
+        @include cardBody;
+
+    }
+}

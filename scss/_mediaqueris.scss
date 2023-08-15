@@ -1,0 +1,166 @@
+@media (max-width: 501px) {
+    body {
+        background-image: url(../imagenes/fondocelu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header {
+        .navbar-brand {
+            align-items: flex-end;
+
+            h1 {
+                font-size: 1.2rem;
+                padding-left: 5px;
+            }
+        }
+    }
+
+    .main {
+        background-image: none;
+        padding: 10px;
+
+        .contenedorMain {
+            width: auto;
+            height: auto;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .divisionPagina {
+        font-size: 1.2rem;
+        padding: 15px 0px;
+        border-radius: 15px;
+    }
+
+    .box {
+        background-color: #FDEDF1;
+
+        h3 {
+            font-size: 1.4rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+    footer {
+        background-color: #FDEDF1;
+    }
+
+    .tituloServicios h2 {
+        font-size: 2rem;
+    }
+
+    .card {
+        height: 550px;
+        margin-top: 20px;
+    }
+
+    .formularioTitulo h2 {
+        font-size: 1.3rem;
+    }
+
+    label {
+        font-size: 1.3rem;
+    }
+
+    .divisor {
+        margin: 10px 0;
+
+        h3 {
+            font-size: 1.4rem;
+        }
+    }
+
+    .quienesSomosTitulo {
+        font-size: 1.5rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .carousel-item {
+        height: auto;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.6rem;
+    }
+
+    .preguntasFrecuentes {
+        h2 {
+            font-size: 1.4rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1400px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    .main {
+        .contenedorMain {
+            width: auto;
+            height: auto;
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .tituloServicios h2 {
+        font-size: 2.5rem;
+    }
+
+    .card {
+        height: 540px;
+        margin-top: 20px;
+    }
+
+    .quienesSomosTitulo {
+        font-size: 2.5rem;
+    }
+
+    .divisor {
+        margin: 10px 0;
+
+        h3 {
+            font-size: 2rem;
+        }
+    }
+
+    .carousel-item {
+        height: 320px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}

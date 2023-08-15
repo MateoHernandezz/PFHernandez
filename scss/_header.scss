@@ -1,0 +1,42 @@
+/*************** HEADER ****************/
+header {
+    background-color: $colorSecun;
+    border-bottom: 2px solid $colorMain;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: flex-end;
+
+
+    .logo {
+        width: 60px;
+        transition: all 1s;
+
+        &:hover {
+            width: 80px;
+        }
+    }
+
+
+}
+
+.titulo {
+    color: $colorMain;
+}
+
+.linkNav {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 1.3rem;
+    transition: all 0.5s;
+
+
+    &:hover {
+
+        background-color: $colorMain;
+        color: white;
+        border-radius: 15px;
+    }
+}

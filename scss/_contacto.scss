@@ -1,0 +1,39 @@
+/********************* CONTACTO ******************/
+.formulario {
+    background-color: $colorSecun;
+    box-shadow: $boxShadowNo;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: $paddingMain;
+
+    label {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    input {
+        box-shadow: 5px 10px 0px $colorMain;
+    }
+
+    textarea {
+        box-shadow: 10px 10px 0px $colorMain;
+    }
+
+    .form-control {
+        margin: 20px 0;
+    }
+
+    .botonEnviar {
+        background-color: $colorMain;
+        color: #fff;
+        border: none;
+        width: 150px;
+        height: 40px;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+
+    .formularioTitulo {
+        border-bottom: $colorMain 3px solid;
+    }
+}

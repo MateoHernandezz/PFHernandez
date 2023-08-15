@@ -1,0 +1,37 @@
+/*************** FAQS ******************/
+.preguntasFrecuentes {
+    background-color: $colorSecun;
+    padding: $paddingMain;
+    border-radius: 15px;
+    box-shadow: $boxShadowColor;
+
+    h2 {
+        padding: 10px;
+        border-bottom: $colorMain 3px solid;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+.accordion-button {
+    font-weight: bold;
+    background-color: $colorSecun;
+    box-shadow: $boxShadowNo;
+
+    &:hover {
+        background-color: $colorMain;
+        color: #fff;
+    }
+}
+
+.accordion-item {
+    border: none;
+    margin: 20px;
+}
+
+.accordion-body {
+    background-color: $colorSecun;
+    box-shadow: $boxShadowNo;
+}

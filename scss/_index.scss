@@ -1,0 +1,80 @@
+.colorBtn {
+    background-color: $colorMain;
+    color: #fff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-image: url(../imagenes/fondocelu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*********** INICIO ************/
+
+.main {
+    background-image: url(../imagenes/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding: $paddingMain;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .contenedorMain {
+        width: 50%;
+        background-color: $colorSecun;
+        opacity: 0.9;
+        padding: $paddingMain;
+        border-radius: 30px;
+        box-shadow: $boxShadowColor;
+
+        h2 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/*********** DIVISION PAGINA ************/
+
+.divisionPagina {
+    background: $colorSecun;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: $boxShadowNo;
+}
+
+/*********** CONTENIDO SECUNDARIO ************/
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: $paddingMain;
+    border-radius: 30px;
+    box-shadow: $boxShadowColor;
+
+
+    h3 {
+        border-bottom: 2px solid $colorMain;
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+
+}

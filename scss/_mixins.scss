@@ -1,0 +1,18 @@
+@mixin cards ($alto) {
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: $boxShadowNo;
+    height: $alto;
+    transition: all 0.5s;
+
+    &:hover {
+        transform: scale(1.06, 1.06);
+    }
+}
+
+
+@mixin cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

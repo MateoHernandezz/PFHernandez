@@ -1,0 +1,75 @@
+/*****************QUIENES SOMOS***************/
+.divisor {
+    margin: 20px 0;
+
+    h3 {
+        font-size: 3rem;
+    }
+}
+
+.quienesSomosCarrusel {
+    background-color: #0A0A0A;
+}
+
+@keyframes texto {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
+}
+
+.quienesSomosTitulo {
+    font-size: 3rem;
+    animation-name: texto;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.lead {
+    animation-name: texto;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+
+}
+
+.carousel-item {
+    height: 500px;
+
+    img {
+        opacity: 0.3;
+    }
+}
+
+.quienesSomosFoto {
+    width: 500px;
+    height: 500px;
+}
+
+.carousel-caption h3 {
+    font-size: 3rem;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+}
+
+.tarjetas {
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: $paddingMain;
+    background: linear-gradient(to right, $colorSecun, $colorSecun, $colorSecun, #F679A7);
+    box-shadow: $boxShadowNo;
+    transition: all 1s;
+
+    &:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    img {
+        width: 100px;
+    }
+}
