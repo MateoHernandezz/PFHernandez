@@ -56,8 +56,10 @@
         background-color: #FDEDF1;
     }
 
-    .tituloServicios h2 {
-        font-size: 2rem;
+    .tituloServicios {
+        h2 {
+            font-size: 2rem;
+        }
     }
 
     .card {
@@ -65,8 +67,10 @@
         margin-top: 20px;
     }
 
-    .formularioTitulo h2 {
-        font-size: 1.3rem;
+    .formularioTitulo {
+        h2 {
+            font-size: 1.3rem;
+        }
     }
 
     label {
@@ -93,12 +97,16 @@
         height: auto;
     }
 
-    .carousel-caption h3 {
-        font-size: 1rem;
+    .carousel-caption {
+        h3 {
+            font-size: 1rem;
+        }
     }
 
-    .carousel-caption p {
-        font-size: 0.6rem;
+    .carousel-caption {
+        p {
+            font-size: 0.6rem;
+        }
     }
 
     .preguntasFrecuentes {
@@ -117,10 +125,11 @@
 
         h3 {
             font-size: 1.2rem;
+            margin: 15px 0;
         }
 
         p {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
     }
 }
@@ -145,8 +154,10 @@
         }
     }
 
-    .tituloServicios h2 {
-        font-size: 2.5rem;
+    .tituloServicios {
+        h2 {
+            font-size: 2.5rem;
+        }
     }
 
     .card {
@@ -170,12 +181,16 @@
         height: 320px;
     }
 
-    .carousel-caption h3 {
-        font-size: 2rem;
+    .carousel-caption {
+        h3 {
+            font-size: 2rem;
+        }
     }
 
-    .carousel-caption p {
-        font-size: 1rem;
+    .carousel-caption {
+        p {
+            font-size: 1rem;
+        }
     }
 
     .tarjetas {
@@ -183,6 +198,7 @@
 
         h3 {
             font-size: 1.5rem;
+            
         }
 
         p {
